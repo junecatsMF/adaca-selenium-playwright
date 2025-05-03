@@ -1,0 +1,21 @@
+{
+  "name": "adaca_test_junecataquez",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.52.0",
+    "chromedriver": "^135.0.4",
+    "selenium-webdriver": "^4.31.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "playwright": "^1.52.0"
+  }
+}
