@@ -4,7 +4,8 @@ Repository for ADACA exam - Selenium and Playwright demonstration
 This project demonstrates how to perform UI testing using Selenium WebDriver and Playwright for a simple web application (e.g., a to-do list app). It also includes utility functions, data-driven tests, and error handling.
 
 # Folder structure
-`root/
+`
+root/
 ├── base/
 │   └── baseTest.js
 ├── pageObjects/
@@ -19,7 +20,8 @@ This project demonstrates how to perform UI testing using Selenium WebDriver and
 │   ├── screenshotUtil.js
 │   └── retryUtil.js
 ├── config/
-│   └── config.js`
+│   └── config.js
+`
 
 # Setup
 Install dependencies:
