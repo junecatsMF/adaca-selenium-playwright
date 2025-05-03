@@ -25,6 +25,7 @@ The Selenium tests are written using VanillaJS.
 
 bash
 node selenium/add-item-then-remove-from-cart.test.js
+
 2.	Test Description:
 o	Login Test: Tests the user login functionality.
 o	Add Item Test: Adds an item to the cart.
@@ -35,8 +36,10 @@ Playwright Tests
 bash
 Playwright
 1. To run tests, use the following command in the root folder:
+
 bash
 npx playwright test
+
 2.	Test Description:
 o	Login Test: Tests the login form using Playwright.
 Utility Functions
