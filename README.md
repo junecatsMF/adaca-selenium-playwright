@@ -35,11 +35,7 @@ o	Add Item Test: Adds an item to the cart.
 o	Delete Item Test: Deletes the item from the list.
 
 Playwright Tests
-1.	To run Playwright tests, use the following command:
-
-bash
-Playwright
-1. To run tests, use the following command in the root folder:
+1.	To run Playwright tests, use the following command in the root folder:
 
 bash
 npx playwright test
