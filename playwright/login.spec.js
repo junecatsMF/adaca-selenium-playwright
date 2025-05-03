@@ -9,6 +9,7 @@ test('Login and interact with form', async ({ page }) => {
 
     const item = appendTimestamp('Backpack');
     await page.click('#add-to-cart-sauce-labs-backpack');
+    console.log("Item added timestamp: "+item);
     await page.click('.shopping_cart_link');
 
     await expect(page.locator('.cart_item')).toContainText('Sauce Labs Backpack');
