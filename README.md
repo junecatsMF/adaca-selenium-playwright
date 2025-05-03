@@ -14,9 +14,8 @@ You can install the required dependencies via NPM:
 # Setup
 Install dependencies:
 In the root folder of the project, run the following command to install the required packages:
- npm install 
- npx install playwright
- npm install selenium-webdriver chromedriver playwright
+
+ npm install
 
 # Running Tests
 ## Selenium Tests
