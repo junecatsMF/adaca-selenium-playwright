@@ -6,21 +6,37 @@ This project demonstrates how to perform UI testing using Selenium WebDriver and
 # Folder structure
 `
 root/
+
 ├── base/
+
 │   └── baseTest.js
+
 ├── pageObjects/
+
 │   ├── loginPage.js
+
 │   ├── productsPage.js
+
 │   └── cartPage.js
+
 ├── testData/
+
 │   └── user.json
+
 ├── tests/
+
 │   └── e2e.test.js      <-- main test file
+
 ├── utils/
+
 │   ├── screenshotUtil.js
+
 │   └── retryUtil.js
+
 ├── config/
+
 │   └── config.js
+
 `
 
 # Setup
