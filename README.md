@@ -20,7 +20,7 @@ In the root folder of the project, run the following command to install the requ
 
 # Running Tests
 Selenium Tests
-The Selenium tests are written using the Jest test framework.
+The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
 bash
 node selenium/add-item-then-remove-from-cart.test.js
@@ -33,9 +33,11 @@ Playwright Tests
 bash
 CopyEdit
 
+Playwright
+1. To run tests, use the following command in the root folder:
+bash
 npx playwright test
-
-3.	Test Description:
+2.	Test Description:
 o	Login Test: Tests the login form using Playwright.
 Utility Functions
 appendTimestamp(input) from utils/stringUtils.js
