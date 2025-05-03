@@ -16,7 +16,7 @@ In the root folder of the project, run the following command to install the requ
 The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
 
-`npm start`
+`npm test`
 
 2.	Test Description:
 
@@ -29,7 +29,7 @@ o	Delete Item Test: Deletes the item from the list.
 ## Playwright Tests
 1.	To run Playwright tests, use the following command in the root folder:
 
-`npx playwright test`
+`npx playwright test playwright/login.spec.js --headed`
 
 2.	Test Description:
 
