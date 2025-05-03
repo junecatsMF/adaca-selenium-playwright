@@ -29,7 +29,7 @@ o	Delete Item Test: Deletes the item from the list.
 ## Playwright Tests
 1.	To run Playwright tests, use the following command in the root folder:
 
-`npx playwright test playwright/login.spec.js --headed`
+`npx playwright test playwright/login.spec.js --headed --project=Chromium`
 
 2.	Test Description:
 
