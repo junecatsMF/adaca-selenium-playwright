@@ -12,7 +12,7 @@ To get started with this project, ensure you have the following tools installed 
 You can install the required dependencies via NPM:
 
 # Setup
-1.	Install dependencies:
+Install dependencies:
 In the root folder of the project, run the following command to install the required packages:
  npm install 
  npx install playwright
@@ -27,9 +27,13 @@ bash
 node selenium/add-item-then-remove-from-cart.test.js
 
 2.	Test Description:
+
 o	Login Test: Tests the user login functionality.
+
 o	Add Item Test: Adds an item to the cart.
+
 o	Delete Item Test: Deletes the item from the list.
+
 Playwright Tests
 1.	To run Playwright tests, use the following command:
 
@@ -41,6 +45,7 @@ bash
 npx playwright test
 
 2.	Test Description:
+
 o	Login Test: Tests the login form using Playwright.
 Utility Functions
 appendTimestamp(input) from utils/stringUtils.js
