@@ -53,15 +53,14 @@ This is a simple utility function that:
 
 ## Error Handling
 Basic error handling is implemented for test failures. If a test fails, a screenshot of the browser window is captured for debugging purposes. This is done automatically after each test run:
-js
-CopyEdit
-afterEach(async () => {
+
+`afterEach(async () => {
   const testState = expect.getState();
   if (testState.currentTestName && testState.testPath) {
     const screenshot = await driver.takeScreenshot();
     fs.writeFileSync(`screenshot-${Date.now()}.png`, screenshot, 'base64');
   }
-});
+});`
  
 # Conclusion
 This project demonstrates how to integrate Selenium WebDriver and Playwright for automating UI tests in a Node.js environment. It includes:
