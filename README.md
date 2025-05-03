@@ -3,26 +3,18 @@ Repository for ADACA exam - Selenium and Playwright demonstration
 
 This project demonstrates how to perform UI testing using Selenium WebDriver and Playwright for a simple web application (e.g., a to-do list app). It also includes utility functions, data-driven tests, and error handling.
 
-Prerequisites
-To get started with this project, ensure you have the following tools installed on your machine:
-•	Node.js: Download Node.js
-•	Google Chrome (or Chromium): For browser-based tests
-•	Selenium WebDriver (ChromeDriver)
-•	Playwright
-You can install the required dependencies via NPM:
-
 # Setup
 Install dependencies:
 In the root folder of the project, run the following command to install the required packages:
 
- npm install
+ `npm install`
 
 # Running Tests
 ## Selenium Tests
 The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
 
-node selenium/add-item-then-remove-from-cart.test.js
+`node selenium/add-item-then-remove-from-cart.test.js`
 
 2.	Test Description:
 
@@ -35,7 +27,7 @@ o	Delete Item Test: Deletes the item from the list.
 ## Playwright Tests
 1.	To run Playwright tests, use the following command in the root folder:
 
-npx playwright test
+`npx playwright test`
 
 2.	Test Description:
 
