@@ -64,9 +64,15 @@ Basic error handling is implemented for test failures. If a test fails, a screen
  
 # Conclusion
 This project demonstrates how to integrate Selenium WebDriver and Playwright for automating UI tests in a Node.js environment. It includes:
+
 •	Test suites for functional testing (login, add/remove items)
+
 •	Usage of Page Object Model design pattern
+
 •	Explicit waits for dynamic elements
+
 •	Screenshots on failure
+
 •	Data-driven tests
+
 •	Basic error handling
