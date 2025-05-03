@@ -3,18 +3,38 @@ Repository for ADACA exam - Selenium and Playwright demonstration
 
 This project demonstrates how to perform UI testing using Selenium WebDriver and Playwright for a simple web application (e.g., a to-do list app). It also includes utility functions, data-driven tests, and error handling.
 
+# Folder structure
+root/
+├── base/
+│   └── baseTest.js
+├── pageObjects/
+│   ├── loginPage.js
+│   ├── productsPage.js
+│   └── cartPage.js
+├── testData/
+│   └── user.json
+├── tests/
+│   └── e2e.test.js      <-- main test file
+├── utils/
+│   ├── screenshotUtil.js
+│   └── retryUtil.js
+├── config/
+│   └── config.js
+
 # Setup
 Install dependencies:
 In the root folder of the project, run the following command to install the required packages:
 
  `npm install`
+ `npm install --save-dev mocha`
+ `npm install --save-dev chai`
 
 # Running Tests
 ## Selenium Tests
 The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
 
-`node selenium/add-item-then-remove-from-cart.test.js`
+`npm start`
 
 2.	Test Description:
 
