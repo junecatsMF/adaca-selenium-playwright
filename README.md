@@ -44,11 +44,14 @@ o	Login Test: Tests the login form using Playwright.
 Utility Functions
 appendTimestamp(input) from utils/stringUtils.js
 This is a simple utility function that:
+
 •	Takes an input string
+
 •	Appends a timestamp to the string
+
 •	Returns the result
 
-Error Handling
+## Error Handling
 Basic error handling is implemented for test failures. If a test fails, a screenshot of the browser window is captured for debugging purposes. This is done automatically after each test run:
 js
 CopyEdit
@@ -60,7 +63,7 @@ afterEach(async () => {
   }
 });
  
-Conclusion
+# Conclusion
 This project demonstrates how to integrate Selenium WebDriver and Playwright for automating UI tests in a Node.js environment. It includes:
 •	Test suites for functional testing (login, add/remove items)
 •	Usage of Page Object Model design pattern
