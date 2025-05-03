@@ -34,6 +34,7 @@ bash
 CopyEdit
 
 npx playwright test
+
 3.	Test Description:
 o	Login Test: Tests the login form using Playwright.
 Utility Functions
