@@ -19,7 +19,7 @@ In the root folder of the project, run the following command to install the requ
  npm install selenium-webdriver chromedriver playwright
 
 # Running Tests
-Selenium Tests
+## Selenium Tests
 The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
 
@@ -33,7 +33,7 @@ o	Add Item Test: Adds an item to the cart.
 
 o	Delete Item Test: Deletes the item from the list.
 
-Playwright Tests
+## Playwright Tests
 1.	To run Playwright tests, use the following command in the root folder:
 
 npx playwright test
