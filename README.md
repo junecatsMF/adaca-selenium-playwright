@@ -8,8 +8,6 @@ Install dependencies:
 In the root folder of the project, run the following command to install the required packages:
 
  `npm install`
- `npm install --save-dev mocha`
- `npm install --save-dev chai`
 
 # Running Tests
 ## Selenium Tests
