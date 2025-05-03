@@ -22,6 +22,7 @@ In the root folder of the project, run the following command to install the requ
 Selenium Tests
 The Selenium tests are written using VanillaJS.
 1.	To run Selenium tests, use the following command in the root folder:
+
 bash
 node selenium/add-item-then-remove-from-cart.test.js
 2.	Test Description:
@@ -30,9 +31,8 @@ o	Add Item Test: Adds an item to the cart.
 o	Delete Item Test: Deletes the item from the list.
 Playwright Tests
 1.	To run Playwright tests, use the following command:
-bash
-CopyEdit
 
+bash
 Playwright
 1. To run tests, use the following command in the root folder:
 bash
